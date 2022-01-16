@@ -1,7 +1,5 @@
 import { h, render } from 'preact'
-
-function App() {
-  return <h1>Hello, zombies!</h1>
-}
+import App from './App'
+import './index.css'
 
 render(<App />, document.body)

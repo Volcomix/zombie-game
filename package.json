@@ -2,15 +2,16 @@
   "name": "zombie-game",
   "version": "1.0.0",
   "description": "Zombie game",
-  "main": "index.js",
   "repository": "https://github.com/Volcomix/zombie-game.git",
   "author": "Volcomix <Volcomix@users.noreply.github.com>",
   "license": "MIT",
   "private": true,
   "scripts": {
-    "serve": "esbuild src/app.tsx --servedir=www --outdir=www/js --bundle"
+    "serve": "esbuild src/index.tsx --servedir=www --outdir=www/app --bundle"
   },
   "dependencies": {
+    "@babylonjs/core": "^4.2.1",
+    "@babylonjs/materials": "^4.2.1",
     "esbuild": "^0.14.11",
     "preact": "^10.6.4"
   }
